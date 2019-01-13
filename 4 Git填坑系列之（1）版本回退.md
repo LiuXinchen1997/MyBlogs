@@ -45,7 +45,7 @@
 
    我在命令行窗口中向上翻，查到`add age`的commit id，键入命令`git reset --hard f913a5`即可。**注意：commit id不需要全部输入，只需要输入前几个就可以。**![](./res/4/8.png)
 
-   果然回退成功了：![](./res/4/8.png)
+   果然回退成功了：![](./res/4/9.png)
 
    注：如果无法在命令行窗口找到`add age`的commit id，使用`git reflog`可以查看每一次命令的记录：![](./res/4/10.png)
 
