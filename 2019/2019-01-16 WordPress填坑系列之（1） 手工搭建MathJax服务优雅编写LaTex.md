@@ -14,3 +14,5 @@
 8. 在设置-->MathJax-LaTex中，在**Custom MathJax Location?**中输入类似`<你的服务器域名>/wp-content/MathJax/MathJax.js`完成配置。
 9. Ubuntu系统下重启apache服务：`/etc/init.d/apache2 restart`。
 10. 此时编写博客，比如输入`[latex]\alpha+\beta\geq\gamma[/latex]`，渲染结果就是：![](./res/2019-01-16/2.PNG)
+
+> 后记：这个插件有一个很大的问题，就是好像**inline**和**display**两种模式不能同时启动，只能使用其中之一，这样就导致有的文章排版很丑！QAQ
